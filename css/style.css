@@ -1,0 +1,197 @@
+body{
+
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95lvh;
+} 
+
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid rgb(160, 174, 180);
+  height: 266px;
+  width: 212px;
+  background-image: url("../img/calcwin.JPG");
+  position: relative;
+}
+
+.c-display{
+  border: 1px solid rgb(160, 174, 180);
+  height: 48px;
+  width: 188px;
+  position: absolute;
+  top:12px;
+  left: 11px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  font-size: 1.7rem;
+  display: flex;
+  justify-content:flex-end ;
+  align-items: center;
+  overflow: hidden;
+  color: rgb(131, 131, 131);
+  /* background-color: rgb(239, 248, 248); */
+
+}
+
+.c-keybord{
+  /* border: 1px solid rgb(180, 160, 175); */
+  height: 185px;
+  width: 188px;
+  position: absolute;
+  top:67px;
+  left: 11px;
+
+}
+
+/* прототип кнопки */
+.c-btn{
+  /* border: 1px solid rgb(179, 92, 157); */
+  /* background-color: rgba(0, 0, 0, 1); */
+  height: 25px;
+  width: 33px;
+  position: absolute;
+  /* color: rgba(0, 0, 0, alpha); */
+  
+}
+
+.c-btn:hover{
+  /* border: 1px solid rgb(179, 92, 157); */
+  border-top: 2px solid rgb(215, 234, 255);
+  border-left: 2px solid rgb(141, 141, 141);
+
+}
+.c-btn:active{
+  /* border: 1px solid rgb(179, 92, 157); */
+  border-top: none ;
+  border-left: none;
+
+  border-bottom: 2px solid rgb(215, 234, 255);
+  border-right: 2px solid rgb(141, 141, 141);
+}
+
+
+/* 1 ряд --------------------------------------------------------*/
+.row1{
+  top:0px;
+}
+
+#mc{
+  left: 0px;
+}
+#mr{
+  left: 39px;
+}
+#ms{
+  left: 78px;
+}
+#m-plus{
+  left: 117px;
+}
+#m-minus{
+  left: 156px;
+}
+
+/* 2 ряд --------------------------------------------------------*/
+.row2{
+  top:32px;
+}
+
+#bs{
+  left: 0px;
+}
+#ce{
+  left: 39px;
+}
+#c{
+  left: 78px;
+}
+#plus-minus{
+  left: 117px;
+}
+#sqrt{
+  left: 156px;
+}
+
+/* 3 ряд --------------------------------------------------------*/
+.row3{
+  top:64px;
+}
+
+#a7{
+  left: 0px;
+}
+#a8{
+  left: 39px;
+}
+#a9{
+  left: 78px;
+}
+#divade{
+  left: 117px;
+}
+#percent{
+  left: 156px;
+}
+
+/* 4 ряд --------------------------------------------------------*/
+.row4{
+  top:96px;
+}
+
+#a4{
+  left: 0px;
+}
+#a5{
+  left: 39px;
+}
+#a6{
+  left: 78px;
+}
+#mult{
+  left: 117px;
+}
+#dvx{
+  left: 156px;
+}
+
+/* 5 ряд --------------------------------------------------------*/
+.row5{
+  top:128px;
+}
+
+#a1{
+  left: 0px;
+}
+#a2{
+  left: 39px;
+}
+#a3{
+  left: 78px;
+}
+#minus{
+  left: 117px;
+}
+#eq{
+  left: 156px;
+  height: 57px;
+}
+/* 5 ряд --------------------------------------------------------*/
+.row6{
+  top:160px;
+}
+
+#a0{
+  left: 0px;
+  width: 71px;
+}
+#dot{
+  left: 78px;
+}
+#plus{
+  left: 117px;
+}
